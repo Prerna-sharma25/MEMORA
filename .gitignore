@@ -1,0 +1,37 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local databases and user data
+digital_memory.db
+*.db
+data/
+
+# Search indexes and generated files
+index/
+.cache/
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# Local backup versions
+app_bck.py
+app_before_folder_changes.py
+app_latest_bck.py
+
+# Temporary OCR test script
+ocr_test.py
+
